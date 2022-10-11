@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/scss/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+<header>
+    <div class="navbar">
+        <img src="/images/logotype.png" alt="">
+        
+
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Menu</a>
+            <a href="#">Café</a>
+            <a href="#">Contact</a>
+            <img src="/images/fb.png" class="img1" alt="">
+            <img src="/images/ig.png" class="img2" alt="">
+          </div>
+          
+          <span onclick="openNav()">&#9776;</span>
+          
+          <script>
+          function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+          }
+          
+          function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+          }
+          </script>
+    </div>
+
+    <div class="header-banner">
+      <div class="text">
+        <h1>Coffee Cottage</h1>
+        <h2>Your place for a swedish fika, AW, meetings and also your workplace</h2>
+        <h3>Café, workplace, drinks and meetings</h3>
+      </div>
+
+      <div class="overlay">
+        <div class="image">
+          <img src="/images/cottage.png" alt="">
+        </div>
+      </div>
+
+
+    </div>
+</header>
+
+<main>
+
+  <div class="content">
+    <div class="cafe">
+      <div class="text-box">
+        <h3>Eat, Drink & Connect
+        at Coffee Cottage.</h3>
+        <p>Our café is built to be cozy, homey and calming. 
+        You can either have a cup of coffee, or a glas of whine 
+        while you work or taking a break. Have something to eat, why don't you!</p>
+      </div>
+    </div>
+
+  </div>
+
+</main>
+
+</body>
+</html>

@@ -1,0 +1,185 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+}
+
+header {
+  background: url(/images/background.jpg);
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  }
+
+.header-banner {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  }
+
+.text {
+  width: 50%;
+  padding: 20px 10px 20px 10px;
+
+  h1 {
+    padding: 20px;
+    text-align: center;
+    font-size: 10em;
+    color: #f1f1f1;
+    font-family: 'Bebas Neue', sans-serif;
+  }
+  
+  h2 {
+    padding: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #2a1010;
+  }
+
+  h3 {
+    padding: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #2a1010;
+    padding-top: 0;
+  }
+
+}
+
+.overlay {
+  background-color: rgba(40, 32, 32, 0.676);
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  }
+
+.overlay img {
+  width: 300px;
+  object-fit: cover;
+  }
+
+.navbar {
+  display: flex;
+  width: 100%;
+  height: auto;
+  background-color: black;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+
+  }
+
+  .navbar img {
+    width: 70px;
+    border-radius: 100%;
+    object-fit: cover;
+    padding: 20px;
+  
+  }
+
+.sidenav {
+  color: white;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #f1f1f1;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  }
+
+.navbar span {
+  color: rgb(213, 213, 213);
+  font-size: 40px;
+  padding: 0px 0px 0px 20px;
+  cursor: pointer;
+  }
+  
+.sidenav a {
+  padding: 30px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+  font-family: 'Bebas Neue', sans-serif;
+  }
+
+.sidenav img {
+  width: 30px;
+  }
+
+.sidenav .img1 {
+  padding-left: 32px;
+  }
+
+.sidenav .img2 {
+  padding-left: 5px;
+  }
+  
+.sidenav a:hover {
+  color: #6c5e5e;
+}
+  
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 55px;
+  margin-left: 50px;
+  color: black;
+  }
+
+.content {
+  padding: 40px;
+  
+
+  .cafe {
+    background: url(/images/tyler-nix-qJ8N1w8eivU-unsplash.jpg);
+    height: 100vh;
+    background-position: 50px 50%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    align-items: center;
+
+    }
+
+  h3 {
+    font-size: 40px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #2a1010;
+    padding-left: 40px;
+    }
+
+  p {
+    padding: 20px;
+    padding-left: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    color: #2a1010;
+    width: 400px;
+    }
+  }
+
+.cafe {
+
+  .text-box {
+    display: flex;
+    background-color: #f1f1f1;
+    height: 100%;
+    width: 50%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center
+    }
+
+  }
