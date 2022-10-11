@@ -152,25 +152,32 @@ header {
 
     }
 
-  h3 {
+  h2 {
     font-size: 40px;
     font-family: 'Bebas Neue', sans-serif;
     color: #2a1010;
     padding-left: 40px;
+    text-align: left;
+
+    }
+
+  h3 {
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #2a1010;
+    text-align: left;
+    padding: 20px;
     }
 
   p {
     padding: 20px;
-    padding-left: 0;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     font-size: 13px;
     color: #2a1010;
     width: 400px;
+    text-align: center;
     }
-  }
-
-.cafe {
 
   .text-box {
     display: flex;
@@ -181,5 +188,4 @@ header {
     flex-direction: column;
     justify-content: center
     }
-
   }

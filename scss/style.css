@@ -142,23 +142,30 @@ header {
   background-size: cover;
   align-items: center;
 }
-.content h3 {
+.content h2 {
   font-size: 40px;
   font-family: "Bebas Neue", sans-serif;
   color: #2a1010;
   padding-left: 40px;
+  text-align: left;
+}
+.content h3 {
+  font-size: 20px;
+  font-family: "Bebas Neue", sans-serif;
+  color: #2a1010;
+  text-align: left;
+  padding: 20px;
 }
 .content p {
   padding: 20px;
-  padding-left: 0;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-size: 13px;
   color: #2a1010;
   width: 400px;
+  text-align: center;
 }
-
-.cafe .text-box {
+.content .text-box {
   display: flex;
   background-color: #f1f1f1;
   height: 100%;
